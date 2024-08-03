@@ -1,0 +1,25 @@
+services:
+  db:
+    image: postgres
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: ecom_rails
+      POSTGRES_DB: ecom_rails_development
+  web:
+    build: .
+    command: bundle exec rails s -b '0.0.0.0' -p 3000
+    volumes:
+      - .:/ecom_rails
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    environment:
+      DATABASE_HOST: db
+      DATABASE_USER: ecom_rails
+      DATABASE_PASSWORD: password
+      DATABASE_NAME: ecom_rails_development
+volumes:
+  pgdata:

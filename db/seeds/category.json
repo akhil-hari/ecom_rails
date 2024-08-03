@@ -1,0 +1,57 @@
+[
+    {
+        "name": "clothing",
+        "url": "https://m.media-amazon.com/images/I/91UviliEKtL._AC_SX522_.jpg",
+        "discount": 20
+    },
+    {
+        "name": "mobile_accessories",
+        "url": "https://m.media-amazon.com/images/I/61kjbBGud2L._AC_SX466_.jpg",
+        "discount": 30
+    },
+    {
+        "name": "home_appliances",
+        "url": "https://m.media-amazon.com/images/I/81YPnWD79nS.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "discount": 15
+    },
+    {
+        "name": "smart_wearables",
+        "url": "https://m.media-amazon.com/images/I/61lR-ZcprXL._AC_SX522_.jpg",
+        "discount": 10
+    },
+    {
+        "name": "computer_accessories",
+        "url": "https://m.media-amazon.com/images/I/71L42CoODhL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "discount": 35
+    },
+    {
+        "name": "toys",
+        "url": "https://m.media-amazon.com/images/I/717SoTu64vL._AC_SX679_.jpg",
+        "discount": 40
+    },
+    {
+        "name": "baby_care",
+        "url": "https://m.media-amazon.com/images/I/71jyhoa9zzL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "discount": 25
+    },
+    {
+        "name": "bed_room_furniture",
+        "url": "https://m.media-amazon.com/images/I/91NgnD-nj3L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "discount": 5
+    },
+    {
+        "name": "home_decor",
+        "url": "https://www.amazon.com/Carrots-Den-Donut-Vase-Set/dp/B0BDR1X6PT/ref=sr_1_27?sr=8-27",
+        "discount": 25
+    },
+    {
+        "name": "fitness_essentials",
+        "url": "https://m.media-amazon.com/images/I/71o9ME7okQL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "discount": 20
+    },
+    {
+        "name": "books",
+        "url": "https://m.media-amazon.com/images/I/81h4xinmqmL._SY466_.jpg",
+        "discount": 50
+    }
+]
